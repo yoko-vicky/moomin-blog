@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 # Moomin Blog
+![Top Page Screenshot](./screenshot.png)
 
 ## About the Project
 
