@@ -3,7 +3,7 @@
 
 ## About the Project
 
-This project is created for the purpose of my own laerning how to build Rails App.
+This project is created for the purpose of my own learning how to build Rails App.
 
 A list of commonly used resources that I find helpful is listed in the acknowledgments.
 
