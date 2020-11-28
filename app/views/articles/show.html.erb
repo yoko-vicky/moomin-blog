@@ -1,4 +1,8 @@
 <h1><%= @article.title %></h1>
+<% unless @article.image_file_name.nil? %>
+<div class="thumbnail"><%= image_tag @article.image.url %></div>
+<% end %>
+
 <p><%= @article.body %></p>
 
 <div class="tags">

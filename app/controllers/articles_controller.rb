@@ -1,4 +1,5 @@
 class ArticlesController < ApplicationController
+  include ArticlesHelper
   before_action :set_article, only: %i[show destroy edit update]
 
   def index
@@ -46,9 +47,5 @@ class ArticlesController < ApplicationController
 
   def set_article
     @article = Article.find(params[:id])
-  end
-
-  def article_params
-    params.require(:article).permit(:title, :body, :tag_list)
   end
 end
