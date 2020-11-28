@@ -1,3 +1,5 @@
+$primary-color: #7e6985;
+
 .tags {
   // border: 1px solid red;
   margin: 2rem auto;
@@ -6,7 +8,7 @@
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    background-color: royalblue;
+    background-color: $primary-color;
     color: white;
     padding: 0.8rem;
     border-radius: 3px;
@@ -18,7 +20,7 @@
 
     &:hover {
       background-color: white;
-      color: royalblue;
+      color: $primary-color;
     }
   }
 }

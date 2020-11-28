@@ -1,9 +1,11 @@
+$primary-color: #7e6985;
+
 .comments {
   &__comments {
     width: 80%;
     margin: 0 auto 2rem;
     padding: 1rem;
-    background-color: rgba(royalblue, 0.2);
+    background-color: rgba($primary-color, 0.2);
   }
 
   &__post {

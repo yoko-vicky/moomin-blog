@@ -1,3 +1,5 @@
+$primary-color: #7e6985;
+
 body {
   background: url('https://source.unsplash.com/NvesrDbsrL4') no-repeat;
   background-size: cover;
@@ -13,7 +15,7 @@ body {
 .header {
   width: 100%;
   margin: 0 auto;
-  background-color: rgba(royalblue, 0.8);
+  background-color: rgba($primary-color, 0.8);
   color: white;
   padding: 1rem 0;
   text-transform: uppercase;
