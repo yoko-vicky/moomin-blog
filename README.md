@@ -30,7 +30,7 @@ A list of commonly used resources that I find helpful is listed in the acknowled
 
 ## Live Demo
 
-[Live Demo Link](https://arcane-falls-33245.herokuapp.com/)
+[Live Demo Link](https://moomin-blog.herokuapp.com/)
 
 
 ## Getting Started
