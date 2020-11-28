@@ -5,7 +5,11 @@ class ArticlesController < ApplicationController
     @articles = Article.all
   end
 
-  def show; end
+  def show
+    @comments = @article.comments
+    @comment = Comment.new
+    @comment.article_id = @article.id
+  end
 
   def new
     @article = Article.new
