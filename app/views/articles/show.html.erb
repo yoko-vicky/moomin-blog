@@ -10,16 +10,18 @@
   <%= render partial: "tags/tag", collection: @article.tags %>
 </div>
 
+<div class="comments__comments">
+  <h2>Comments (<%= @comments.size %>)</h2>
+  <%= render partial: "comments/comment", collection: @comments %>
+</div>
+
+<div class="comments__post">
+  <h2>Post comments</h2>
+  <%= render partial: "comments/form" %>
+</div>
+
 <div class="btns">
   <%= link_to "Edit", edit_article_path(@article), class:'btn' %>
   <%= link_to "Delete", article_path(@article), method: :delete, data: { confirm: 'Are you sure?' }, class:'btn' %>
   <%= link_to  "Back to articles listing", articles_path, class:'btn' %>
 </div>
-
-
-<div class="comments">
-  <h2>Comments (<%= @comments.size %>)</h2>
-  <%= render partial: "comments/comment", collection: @comments %>
-</div>
-
-<%= render partial: "comments/form" %>

@@ -105,6 +105,7 @@ GEM
     nio4r (2.5.4)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
+    normalize-rails (8.0.1)
     paperclip (6.1.0)
       activemodel (>= 4.2.0)
       activesupport (>= 4.2.0)
@@ -215,6 +216,7 @@ DEPENDENCIES
   capybara (>= 2.15)
   jbuilder (~> 2.7)
   listen (~> 3.2)
+  normalize-rails
   paperclip
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)

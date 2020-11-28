@@ -1,5 +1,5 @@
 class TagsController < ApplicationController
-  before_action :set_tag, only: [:show, :destroy]
+  before_action :set_tag, only: %i[show destroy]
 
   def index
     @tags = Tag.all
@@ -37,5 +37,4 @@ class TagsController < ApplicationController
   def tag_params
     params.require(:tag).permit(:name)
   end
-
 end

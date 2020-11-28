@@ -1,0 +1,21 @@
+.comments {
+  &__comments {
+    width: 80%;
+    margin: 0 auto 2rem;
+    padding: 1rem;
+    background-color: rgba(royalblue, 0.2);
+  }
+
+  &__post {
+    width: 80%;
+    margin: 0 auto 3rem;
+    padding: 1rem;
+    border: 3px solid rgba(black, 0.1);
+  }
+
+  &__item {
+    &:not(:last-child) {
+      border-bottom: 1px solid rgba(white, 0.8);
+    }
+  }
+}
