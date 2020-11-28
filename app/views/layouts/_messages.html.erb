@@ -1,5 +1,7 @@
-<div class="flash">
-<% flash.each do |title, msg| %>
-<p class="flash__msg"><%= msg %></p>
+<% if flash.any? %>
+  <div class="flash">
+  <% flash.each do |title, msg| %>
+    <p class="flash__msg"><%= msg %></p>
+  <% end %>
+  </div>
 <% end %>
-</div>
