@@ -1,0 +1,17 @@
+<h1>Tag list</h1>
+
+<div class="tags">
+<% if @tags.any? %>
+  <% @tags.each do |tag| %>
+      <%= link_to  tag.name, tag_path(tag), class: 'tags__item' %>
+    <% end %>
+<% else %>
+  <p>Not found any tag.</p>
+<% end %>
+
+</div>
+
+
+<div class="btns">
+  <%= link_to  "Back to articles listing", articles_path, class:'btn' %>
+</div>

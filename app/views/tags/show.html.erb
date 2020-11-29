@@ -1,0 +1,17 @@
+<h1>List for tag: <span class="upcase"><%= @tag.name %></span></h1>
+<% if @articles.any? %>
+  <div class="articles">
+    <% @articles.each do |article| %>
+      <article class="articles__item">
+        <h2 class="articles__title"><%= link_to article.title, article_path(article) %></h2>
+        <p class="articles__body"><%= article.body %></p>
+      </article>
+    <% end %>
+  </div>
+<% else %>
+  <p>Not found any articles with Tag <%= @tag %></p>
+<% end %>
+
+
+<%= link_to  "Return to tags listing", tags_path, class: 'btn' %>
+<%= link_to  "Return to articles listing", articles_path, class: 'btn' %>
