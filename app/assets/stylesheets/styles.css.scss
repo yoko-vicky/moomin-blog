@@ -1,4 +1,6 @@
 $primary-color: #7e6985;
+$black: black;
+$white: white;
 
 body {
   background: url('https://source.unsplash.com/NvesrDbsrL4') no-repeat;
@@ -16,21 +18,21 @@ body {
   width: 100%;
   margin: 0 auto;
   background-color: rgba($primary-color, 0.8);
-  color: white;
+  color: $white;
   padding: 1rem 0;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
-  box-shadow: 0 0 10px rgba(black, 0.1);
+  box-shadow: 0 0 10px rgba($black, 0.1);
 }
 
 .container {
   width: 96%;
   max-width: 768px;
   margin: 2rem auto 6rem;
-  background-color: rgba(white, 0.5);
+  background-color: rgba($white, 0.5);
   border-radius: 3px;
-  box-shadow: 0 0 10px rgba(black, 0.1);
+  box-shadow: 0 0 10px rgba($black, 0.1);
   padding: 3rem 2rem 4rem 2rem;
 }
 
@@ -50,8 +52,8 @@ h1 {
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  background-color: black;
-  color: white;
+  background-color: $black;
+  color: $white;
   padding: 0.8rem;
   border-radius: 3px;
   text-transform: uppercase;
@@ -60,8 +62,8 @@ h1 {
   cursor: pointer;
 
   &:hover {
-    background-color: white;
-    color: black;
+    background-color: $white;
+    color: $black;
   }
 }
 
@@ -98,13 +100,13 @@ h1 {
     display: block;
 
     &:not(:last-child) {
-      border-bottom: 2px solid rgba(black, 0.1);
+      border-bottom: 2px solid rgba($black, 0.1);
     }
   }
 
   &__title {
     a {
-      color: black;
+      color: $black;
       font-size: 1.3rem;
       text-decoration: none;
 
@@ -120,7 +122,7 @@ h1 {
   max-width: 60rem;
   margin: 1rem auto;
   padding: 0.5rem;
-  background-color: rgba(white, 0.5);
+  background-color: rgba($white, 0.5);
   color: $primary-color;
   border-radius: 3px;
   border: 3px solid $primary-color;
