@@ -1,3 +1,4 @@
+<% if logged_in? %>
 <h1><%= @article.title %></h1>
 <% unless @article.image_file_name.nil? %>
 <div class="thumbnail"><%= image_tag @article.image.url %></div>
@@ -25,3 +26,4 @@
   <%= link_to "Delete", article_path(@article), method: :delete, data: { confirm: 'Are you sure?' }, class:'btn' %>
   <%= link_to  "Back to articles listing", articles_path, class:'btn' %>
 </div>
+<% end %>

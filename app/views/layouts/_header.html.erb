@@ -1,3 +1,15 @@
 <header class="header">
-  Moomin Blog
+  <h1>Moomin Blog</h1>
+  <nav>
+    <ul>
+      <li><%= link_to  "Acrticles", articles_path %></li>
+      <li><%= link_to  "Tags", tags_path %></li>
+      <% if logged_in? %>
+        <li><%= link_to  "Logout", logout_path %></li>
+      <% else %>
+        <li><%= link_to  "Create Account", new_author_path %></li>
+        <li><%= link_to  "Login", login_path %></li>
+      <% end %>
+    </ul>
+  </nav>
 </header>

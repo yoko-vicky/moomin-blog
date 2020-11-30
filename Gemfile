@@ -30,6 +30,9 @@ gem 'paperclip'
 # Add normalize css for rails
 gem 'normalize-rails'
 
+# Add sorcery that is simple and easy to use gem for authentication
+gem 'sorcery'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
