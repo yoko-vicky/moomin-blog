@@ -11,5 +11,10 @@
   <% end %>
 </div>
 
-<%= link_to "Create new article", new_article_path, class: 'btn' %>
-<%= link_to  "Create account to see articles", new_author_path, class: 'btn' %>
+
+<% if logged_in? %>
+    <%= link_to "Create new article", new_article_path, class: 'btn' %>
+  <% else %>
+    <%= link_to  "Create account to see articles", new_author_path, class: 'btn' %>
+    <%= link_to  "Login", login_path, class: 'btn' %>
+<% end %>

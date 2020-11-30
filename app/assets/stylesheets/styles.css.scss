@@ -80,6 +80,7 @@ input[type='submit'] {
   letter-spacing: 0.5px;
   transition: all 0.4s;
   cursor: pointer;
+  margin: 1rem auto;
 
   &:hover {
     background-color: $white;
