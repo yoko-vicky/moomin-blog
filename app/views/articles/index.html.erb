@@ -6,7 +6,6 @@
     <% @articles.each do |article| %>
     <article class="articles__item">
       <h3 class="articles__title"><%= link_to  article.title, article_path(article) %></h3>
-      <p class="articles__body"><%= article.body %></p>
     </article>
     <% end %>
   <% end %>

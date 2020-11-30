@@ -14,6 +14,7 @@
     <div class="container">
       <%= render "layouts/messages" %>
       <%= yield %>
+      <div class="login-box">
       <hr>
       <h6>
         <% if logged_in? %>
@@ -23,6 +24,7 @@
           <%= link_to "(login)", login_path %>
         <% end %>
       </h6>
+      </div>
     </div>
   </body>
 </html>
