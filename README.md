@@ -5,7 +5,6 @@
 ## About the Project
 
 This project is created for the purpose of my own learning how to build Rails App.
-
 A list of commonly used resources that I find helpful is listed in the acknowledgments.
 
 ## Table of Contents
@@ -75,3 +74,12 @@ Give a ⭐️ if you like this project!
 ## License
 
 This project is [MIT](./LICENSE) licensed.
+
+## Acknowledgements
+- [Odin Project Blog App](https://www.theodinproject.com/courses/ruby-on-rails/lessons/ruby-on-rails-ruby-on-rails)
+- [Jumpstart Lab’s Blogger Tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html)
+- [Rails Guides](https://guides.rubyonrails.org/)
+- [Unsplash](https://unsplash.com/)
+- [Paperclip](https://github.com/thoughtbot/paperclip)
+- [normalize-rails](https://github.com/markmcconachie/normalize-rails)
+- [sorcery](https://github.com/Sorcery/sorcery)
